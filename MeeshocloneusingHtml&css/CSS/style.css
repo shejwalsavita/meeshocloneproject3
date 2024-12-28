@@ -1,0 +1,320 @@
+/* header section */
+*{
+    margin:0px;
+    padding:0px;
+    border-style:border-box; 
+}
+
+body{
+    margin:0px;
+} 
+/* navbar1 */
+.nav{
+    height:65px;
+    width:99%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-right:20px;
+    padding:12px;
+    background-color: #640D5F;;
+}
+.meesho-logo{
+    font-size:3.5rem;
+    padding:0px;
+    /* color:#DA0C81; */
+    color:#E73879;
+}
+
+.nav-search{
+    display:flex;
+    justify-content:center;
+    align-items:center;  
+    border:none;
+    width:660px;
+    height:40px;
+}
+
+.nav-icon{
+    height:40px;
+    width:5%;
+    border:0.1px solid grey;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-right:none;
+    background-color:ghostwhite;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.nav-icon:hover{
+    border:0.1px solid black;
+    border-right:none;
+}
+.nav-input{
+    height:40px;
+    width:350px;
+    font-size:0.95rem;
+    background-color:ghostwhite;
+    border:0.1px solid grey;
+    border-left:none;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+input:hover{
+    border:0.1px solid black;
+    border-left:none;
+}
+
+.icon{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+} 
+.icon p{
+    font-size:1.4rem;  
+    font-weight:500;  
+    color:white;
+
+}
+.icon i{
+    font-size:1.4rem;
+    margin-inline:11px;
+    color:white;
+}
+
+/* navbar2 */
+.sec-nav{
+    height:45px;
+    width:100%;
+    background-color:rgb(246,243,243); 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    border:1px solid rgb(234, 230, 230); 
+    font-weight:100;
+    padding:5px;
+}
+
+/***main section ***/
+
+/* top-container */
+.top-container{
+    height:400px;
+    width:100%;
+    margin-top:10px;
+    display:flex;
+    text-align:center;
+} 
+
+.box{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:14%;
+}
+.box1{
+    height:336px; 
+    width:544px; 
+    background-color:#F5EFFF;
+}
+.box2{
+    height:336px; 
+    width:544px;
+    background-image:url("../images/1731653587838_512.webp");
+    background-size:cover;
+}
+.box1 b{
+    font-weight:700;
+    font-size:3rem;
+}
+.option{
+    margin-top:5%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size:1.3rem;
+    font-weight:600;
+}
+ 
+.Download-app{
+    text-align:center;
+    margin-top:10%;
+} 
+
+button{
+    background-color:#9f2089;
+    color:white;
+    height:50px;
+    width:60%;
+    font-size:1.2rem;
+    font-weight:600;
+    border:none;
+    border-radius:4px;
+}
+button:hover{
+    background-color:plum;
+}
+
+.text{
+    text-align:center;
+    margin-bottom:12px;
+    margin-top:8px;
+}
+
+/* middle-container */
+.middle-container{
+    height:1000px;
+    width:100%;
+}
+
+.fashion-store{
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+    margin-top:10px;
+} 
+img{
+    height:440px;
+    width:70%;
+    margin-top:10px;
+}
+/* bottom-container */
+.bottom-container1{
+   height:500px;
+   width:100%;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   justify-content:space-evenly; 
+
+}
+.boxes{
+    height:390px;
+    width:250px;
+}
+
+.boxes p{
+    text-align:center;
+    font-size:1.45rem;
+}
+.boxes h2{
+   text-align:center;
+   font-size:1.2rem;
+}
+.box3-img{
+    background-image:url("../images/WhatsApp Image 2024-12-26 at 16.23.15_c4146550.jpg");
+    background-size:cover;
+    height:390px;
+}
+
+.box4-img{
+    background-image:url("../images/fvkrf_512.webp");
+    background-size:cover;
+    height:390px;
+}
+
+
+.box5-img{
+    background-image:url("../images/top.jpg");
+    background-size:cover;
+    height:390px;
+}
+
+.box6-img{
+    background-image:url("../images/kurti.jpg");
+    background-size:cover;
+    height:390px;
+}
+
+
+.bottom-container2{
+    height:500px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-evenly; 
+ 
+ }
+
+.box7-img{
+    background-image:url("../images/Shoes.jpg");
+    background-size:cover;
+    height:390px;
+}
+
+.box8-img{
+    background-image:url("../images/cosmatic.jpg");
+    background-size:cover;
+    height:390px;
+}
+
+.box9-img{
+    background-image:url("../images/WhatsApp Image 2024-12-26 at 16.23.17_b498f866.jpg");
+    background-size:cover;
+    height:390px;
+}
+
+.box10-img{
+    background-image:url("../images/WhatsApp Image 2024-12-26 at 16.23.18_c2726291.jpg");
+    background-size:cover;
+    height:390px;
+}
+
+/* footer-section */
+.footer-section{
+    height:280px;  
+    width:100%;
+    background-color:rgb(246,243,243);   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    justify-content:space-around;
+    margin-top:20px;
+}
+.list a{
+    display:block;
+    margin-top:20px;
+}
+
+.list {
+    margin-top:-45px;
+}
+.content{
+    margin-bottom:30px;
+}
+.footer-section .icons{
+    display:flex;
+}
+
+.footer-section .list .icons i{
+    font-size:1.3rem;
+    margin-right:10px; 
+    margin-top:15px;
+}
+
+.fb-icon{
+    color:rgb(0,110,255);
+}
+
+.insta-icon{
+    color:#E73879;  
+}
+
+.youtub-icon{
+    color:rgb(252,26,26)
+}
+.in-icon{
+    color:#1F509A;
+}
+.twitter-icon{
+    color:rgb(0,110,255);
+}
+.apps{
+    margin-bottom:50px;
+}
